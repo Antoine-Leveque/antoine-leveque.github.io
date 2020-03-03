@@ -28,15 +28,15 @@ github:
   username: Antoine-Leveque             # change to your github username
 
 twitter:
-  username: @Leveque_Antoine            # change to your twitter username
+  username: Antoine LEVEQUE            # change to your twitter username
 
 social:
   name: Antoine LEVEQUE                  # it will shows as the copyright owner in Footer
   email: a.leveque@protonmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/Leveque_Antoine      # change to your twitter homepage
+    - https://github.com/Antoine-Leveque       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
