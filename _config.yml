@@ -22,13 +22,13 @@ url: 'https://antoine-leveque.github.io'
 
 author: Antoine LEVEQUE                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/avatar.png   # support internet resources
 
 github:
   username: Antoine-Leveque             # change to your github username
 
 twitter:
-  username: Antoine LEVEQUE            # change to your twitter username
+  username: Leveque_Antoine            # change to your twitter username
 
 social:
   name: Antoine LEVEQUE                  # it will shows as the copyright owner in Footer
