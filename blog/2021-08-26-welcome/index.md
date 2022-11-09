@@ -1,13 +1,12 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun, aleveque]
+title: Test Henri
+authors: [aleveque]
 tags: [facebook, hello, docusaurus, test]
 ---
 
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-# TEMA HENRI, C'EST MOI QUI A FAIT CETTE MODIF
 
 Simply add Markdown files (or folders) to the `blog` directory.
 
