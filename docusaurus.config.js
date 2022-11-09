@@ -77,6 +77,12 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {to: '/tools', label: 'Tools', position: 'left'},
+          {
+            href: 'https://github.com/Antoine-Leveque/antoine-leveque.github.io/tree/master/',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
