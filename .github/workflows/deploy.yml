@@ -26,7 +26,7 @@ env:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  prepare:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -41,6 +41,13 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: yarn install --non-interactive
+  build:
+    needs: prepare
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Build
         run: yarn build
       - name: Setup Pages
@@ -50,6 +57,13 @@ jobs:
         with:
           # Upload entire repository
           path: build
+  deploy:
+    needs: [prepare, build]
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
