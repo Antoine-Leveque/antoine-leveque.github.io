@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Antoine LEVEQUE',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,11 +74,6 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/tools-page', label: 'Tools', position: 'right'},
           {to: '/useful-read', label: 'Read', position: 'right'},
-          {
-            href: 'https://github.com/Antoine-Leveque/antoine-leveque.github.io/tree/master/',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -124,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Antoine LEVEQUE, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
