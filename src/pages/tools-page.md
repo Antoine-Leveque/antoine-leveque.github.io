@@ -5,4 +5,7 @@ authors: [aleveque]
 tags: [tools]
 ---
 
-- Paste : https://paste.chapril.org
+
+| Type  | URL                       |
+| :-----: |:-------------------------: |
+| paste | https://paste.chapril.org |

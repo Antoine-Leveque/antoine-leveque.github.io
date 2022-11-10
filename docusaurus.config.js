@@ -73,6 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/tools-page', label: 'Tools', position: 'right'},
+          {to: '/usefull-read', label: 'Read', position: 'right'},
           {
             href: 'https://github.com/Antoine-Leveque/antoine-leveque.github.io/tree/master/',
             label: 'GitHub',
