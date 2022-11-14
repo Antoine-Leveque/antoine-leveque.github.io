@@ -65,13 +65,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/tools-page', label: 'Tools', position: 'right'},
           {to: '/useful-read', label: 'Read', position: 'right'},
         ],
