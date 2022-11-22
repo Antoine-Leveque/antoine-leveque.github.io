@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: Antoine LEVEQUE
+authors: aleveque
 tags: [hello, docusaurus]
 ---
 
