@@ -56,4 +56,4 @@ jobs:
       - name: notify 
         uses: wei/curl@v1
         with:
-          args: --data "{ Nouvelle mise en ligne https://antoine-leveque.github.io" ntfy.sh/928naANGcmquexC7WyQL }"
+          args: --data 'Nouvelle mise en ligne https://antoine-leveque.github.io' ntfy.sh/928naANGcmquexC7WyQL
