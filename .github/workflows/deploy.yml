@@ -53,3 +53,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: notify 
+        uses: wei/curl@v1
+        with:
+          args: curl -d "Nouvelle mise en ligne https://antoine-leveque.github.io" ntfy.sh/928naANGcmquexC7WyQL
