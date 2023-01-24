@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Antoine LEVEQUE',
-  tagline: 'Dinosaurs are cool',
+  title: 'Bienvenue ! ',
+  tagline: 'Pourquoi ce blog ? et bien pourquoi pas !',
   url: 'https://antoine-leveque.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
