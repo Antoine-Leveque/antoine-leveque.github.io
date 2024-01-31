@@ -15,7 +15,7 @@
 baseURL = "https://antoine-leveque.github.io/"
 languageCode = "fr"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "Blog - Antoine LEVEQUE-VARNIER"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
