@@ -13,7 +13,7 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://antoine-leveque.github.io/"
-languageCode = "en-us"
+languageCode = "fr"
 defaultContentLanguage = "en-us"
 title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
@@ -45,7 +45,7 @@ canonifyurls = true
 # ------
 [author]
   name = "Antoine LEVEQUE-VARNIER"
-  bio = "For my memory weekness and maybe for yours"
+  bio = "Pour mes soucis de mémoire, et peut être les votres"
   job = "SRE"
   location = "France"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -98,12 +98,12 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
   url = "https://github.com/Antoine-Leveque"
-# [[menu.links]]
-#   weight = 2
-#   identifier = "stackoverflow"
-#   name = "Stack Overflow"
-#   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
-#   url = "https://stackoverflow.com/users/636472/kakawait"
+[[menu.links]]
+  weight = 2
+  identifier = "KnowledgeBase"
+  name = "KB"
+  # pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
+  url = "https://antoine-leveque.github.io/kb"
 
 [[menu.misc]]
   weight = 1
